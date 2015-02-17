@@ -1,0 +1,22 @@
+.center {
+  display: block;
+  width: 1050px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#scoreboard {
+	float: left;
+	margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+#scoreboard td, th {
+	font-family: 'Lucida Sans Typewriter';
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}

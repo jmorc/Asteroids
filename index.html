@@ -10,35 +10,29 @@
     <script src="./lib/img.js"></script>
     <script src="./lib/scoreboard.js"></script>
     <script src="./lib/keymaster.js"></script>
-    <link rel="stylesheet" type="text/css" href="./lib/styles.css">
+    <link rel="stylesheet" type="text/css" href="./lib/style.css">
   </head>
   <body>
     
     
     <div class="center">
-
-      <div id="scoreboard">
-        <table>
-          
-          <tr>
-            <td>Lives</td>
-            <td>Points</td>
-          </tr>
-          <tr>
-            <td id="lives"></td>
-            <td id="points"></td>
-          </tr>
-        </table>
-      </div> 
+      <table id="scoreboard">
+        
+        <tr>
+          <th>Lives</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td id="lives"></td>
+          <td id="points"></td>
+        </tr>
+      </table>
 
       <canvas width="800" height="400" id="game-canvas">
         Pea-shooter game goes here. It looks like this browser may not support HTML
         Canvas, which is required to play the game.
       </canvas>
-
     </div>
-
-
     
     <script>
       var canvasEl = document.getElementById("game-canvas");
@@ -47,9 +41,5 @@
       gameView.ctx = ctx;
       gameView.start();
     </script>
-
-
-    
   </body>
-
 </html>
