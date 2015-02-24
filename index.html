@@ -13,16 +13,13 @@
     <link rel="stylesheet" type="text/css" href="./lib/style.css">
   </head>
   <body>
-    <audio id="background" src="audio/sweet_tune.wav" preload="auto"></audio>
+    
     <audio id="bullet_fired" src="audio/bullet.wav" preload="auto"></audio>
     <audio id="bullet_hit" src="audio/hit.wav" preload="auto"></audio>
     <audio id="ship_death" src="audio/death.wav" preload="auto"></audio>
 
-    
-    
     <div class="center">
       <table id="scoreboard">
-        
         <tr>
           <th>Lives</th>
           <th>Points</th>
@@ -38,6 +35,10 @@
         Canvas, which is required to play the game.
       </canvas>
     </div>
+
+    <audio controls loop> 
+      <source src="audio/sweet_tune.wav" type="audio/wav">
+    </audio>
     
     <script>
       var canvasEl = document.getElementById("game-canvas");
