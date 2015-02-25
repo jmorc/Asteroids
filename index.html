@@ -29,6 +29,11 @@
           <td id="lives"></td>
           <td id="points"></td>
         </tr>
+        <tr>
+          <th>Key</th>
+          <th>Result</th>
+        </tr>
+
       </table>
 
       <canvas width="800" height="400" id="game-canvas">
@@ -37,9 +42,11 @@
       </canvas>
     </div>
 
-    <audio controls loop> 
-      <source src="audio/sweet_tune.wav" type="audio/wav">
-    </audio>
+    <div class="audio-container">
+      <audio controls autoplay loop id="audio-controls"> 
+        <source src="audio/sweet_tune.wav" type="audio/wav">
+      </audio>
+    </div>
     
     <script>
       var canvasEl = document.getElementById("game-canvas");

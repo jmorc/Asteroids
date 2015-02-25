@@ -20,3 +20,17 @@
 	padding-right: 5px;
 	text-align: center;
 }
+
+.audio-container {
+  display: block;
+  width: 1050px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#audio-controls {
+  float: right;
+  margin-top: 10px;
+  margin-right: 60px;
+}
