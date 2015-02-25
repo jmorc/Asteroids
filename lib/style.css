@@ -10,7 +10,7 @@
 	float: left;
 	margin-left: 50px;
     margin-right: 10px;
-    margin-top: 100px;
+    margin-top: 20px;
     border: 1px solid black;
 }
 
@@ -31,6 +31,11 @@
   text-align: left; 
 }
 
+.table-category {
+  padding-top: 30px;
+  text-align: left; 
+}
+
 .audio-container {
   display: block;
   width: 1050px;
@@ -42,5 +47,4 @@
 #audio-controls {
   float: right;
   margin-top: 10px;
-  /*margin-right: 60px;*/
 }
