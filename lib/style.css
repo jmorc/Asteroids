@@ -1,6 +1,6 @@
 .center {
   display: block;
-  width: 1050px;
+  width: 1150px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,17 @@
 	font-family: 'Lucida Sans Typewriter';
 	padding-left: 5px;
 	padding-right: 5px;
-	text-align: center;
+}
+
+#lives, #points {
+  text-align: center;
+  border: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.directions {
+  font-size: 12;
+  text-align: left; 
 }
 
 .audio-container {
@@ -32,5 +42,5 @@
 #audio-controls {
   float: right;
   margin-top: 10px;
-  margin-right: 60px;
+  /*margin-right: 60px;*/
 }
