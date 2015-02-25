@@ -1,2 +1,2 @@
 # Asteroids
-Asteroids JavaScript browser game, implemented with the HTML <canvas> element.
+Asteroids JavaScript browser game, implemented with the HTML \<canvas\> element.
